@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto+Slab|Simonetta&display=swap');
+
+/*
+
+font-family: 'Simonetta', cursive;     //head
+font-family: 'Roboto Slab', serif;    //body
+font-family: 'Kaushan Script', cursive;   //homepage
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+/******************************************************************************************************************
+
+HOME PAGE
+
+******************************************************************************************************************/
+.home_content h1{
+    font-size: 7em;
+    font-family: 'Kaushan Script', cursive;    
+}
+.home{
+    position: relative;
+    text-align: center;
+    height: 800px;
+    background: no-repeat center fixed url("Z94A9015.JPG");
+    opacity: 80%;
+    background-size: cover;
+}
+ #hr{
+    border-color: #f3f3f3;
+}
+.home_content{
+    line-height: 1.5;
+    letter-spacing: 6px;
+    background: none; 
+    position: absolute;  
+    left: 50px;
+    top:50px;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 4px 0px #000;
+    font-weight: 20px;
+    color: #fff;
+    
+}
+/******************************************************************************************************************
+
+PROFILE PAGE
+
+******************************************************************************************************************/
+.profile{
+    padding: 150px 10px;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif; 
+    background-color: #fff;
+    justify-content: center;
+}
+.profile_content{
+    padding: 40px 150px;
+}
+.image{
+    height: 200px;
+    border-radius: 20%;
+    margin: 40px 0px;
+}
+.profile_block
+{
+    font-size: 3rem;
+    border-radius: 20%; 
+    padding: 20px 0px;
+    margin: 0px 15px;
+    display: inline-block;
+    position: absolute;
+    
+}
+
+
+.skills{
+    background-color: #f3efe0;
+    padding: 150px 10px;
+    font-family: 'Roboto Slab', serif;
+    justify-content: center;
+}
+.checked{
+    color: orange;
+}
+th,td
+{
+    padding: 10px;
+    font-size: 22px;
+}
+table
+{
+    position: relative;
+    left: 90px;
+}
+
+.contact_info{
+    box-sizing: border-box;
+    padding: 50px 100px 300px;
+    background-color: #434242;
+    color: #fff;
+    line-height: 70px;
+    font-size: 40px;
+}
+.contact_info h1{
+    font-size: 70px;
+}
+#a{
+    color: #7d7c7c;
+    padding: 5px;
+    font-size: 25px;
+}
+#a:hover{
+    color: #fff;
+    text-decoration: none;
+}
